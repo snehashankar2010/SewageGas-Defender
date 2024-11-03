@@ -1,0 +1,48 @@
+{
+    "name": "realtime-sewage-gas-project",
+    "version": "1.0.0",
+    "description": "A realtime sewage gas monitor and neutralization using IoT.",
+    "main": "server.js",
+    "scripts": {
+        "test": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/3ddelano/realtime-sewage-gas-project.git"
+    },
+    "engines": {
+        "npm": ">=8.5.4",
+        "node": ">=16.9.1"
+    },
+    "keywords": [
+        "realtime",
+        "sewage",
+        "detect",
+        "neutralize",
+        "project"
+    ],
+    "author": "Delano Lourenco",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.25.0",
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^15.0.0",
+        "express": "^4.17.2",
+        "express-jwt": "^6.1.0",
+        "express-validation": "^3.0.8",
+        "helmet": "^5.0.2",
+        "http-status": "^1.5.0",
+        "joi": "^17.6.0",
+        "mongoose": "^6.1.9",
+        "request": "^2.88.2",
+        "util": "^0.12.4",
+        "winston": "^3.5.1",
+        "ws": "^8.4.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0"
+    }
+}
