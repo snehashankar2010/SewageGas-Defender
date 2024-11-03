@@ -1,3 +1,3 @@
 # SewageGas-Defender
-Realtime sewage gas detection and control system
+Realtime sewage gas detection and control system <br>
 ●	Detected and mitigated sewage gas using IoT systems, enhancing safety in septic tanks and exposed areas using the novel idea proposed in an article by MIT student.
